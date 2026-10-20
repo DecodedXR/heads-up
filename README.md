@@ -6,7 +6,7 @@ Stop checking the terminal. Heads-up pops a desktop notification when Claude Cod
 
 | Platform | How it notifies |
 |---|---|
-| **Windows 10/11** | Native toast through built-in Windows PowerShell. No BurntToast or other modules |
+| **Windows 10/11** | Native toast through built-in Windows PowerShell. No BurntToast or other modules, no admin rights |
 | **WSL** | The same Windows toast, called from inside WSL |
 | **macOS** | Notification Center via `osascript`, with a sound |
 | **Linux** | `notify-send`, or a terminal bell if that isn't installed |
@@ -31,7 +31,7 @@ Too many "finished" pings during quick back-and-forth? Turn off **Notify when Cl
 ## Requirements
 
 - On Windows, Claude Code runs hooks with Git Bash, which comes with Git for Windows.
-- If a toast doesn't appear on Windows, check **Settings → System → Notifications**: notifications must be on for **Windows PowerShell**, and Do Not Disturb must be off.
+- If a toast doesn't appear on Windows, check **Settings → System → Notifications**: notifications must be on for **Heads-up for Claude Code**, and Do Not Disturb must be off.
 - On macOS, allow notifications for **Script Editor** the first time macOS asks.
 
 ## Privacy
