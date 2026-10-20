@@ -1,5 +1,7 @@
 # Heads-up: desktop notifications for Claude Code
 
+![Heads-up: desktop notifications for Claude Code](assets/cover.png)
+
 Stop checking the terminal. Heads-up pops a desktop notification when Claude Code **needs your permission or input**, and when it **finishes a turn**. The notification is titled with the project name, so you know which session is waiting.
 
 | Platform | How it notifies |
