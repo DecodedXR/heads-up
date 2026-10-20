@@ -36,7 +36,7 @@ Too many "finished" pings during quick back-and-forth? Turn off **Notify when Cl
 
 ## Privacy
 
-Everything runs locally. No network calls, no telemetry, and nothing is logged.
+Everything runs locally. No network calls, no telemetry, and nothing is logged. On Windows, the first notification creates one per-user registry key, `HKCUSoftwareClassesAppUserModelIdDecodedXR.HeadsUp`, so Windows can show the toast under its own name. Delete that key to remove it.
 
 ## More from DecodedXR
 
