@@ -20,6 +20,14 @@ Stop checking the terminal. Heads-up pops a desktop notification when Claude Cod
 
 That's it. No settings to edit.
 
+**VS Code extension:** paste this into your browser's address bar to open the install dialog in VS Code:
+
+```
+vscode://anthropic.claude-code/install-plugin?plugin=heads-up&marketplace=DecodedXR/heads-up
+```
+
+Heads-up works in the extension as well as the terminal.
+
 ## What triggers a notification
 
 - Claude asks for **permission** to use a tool
