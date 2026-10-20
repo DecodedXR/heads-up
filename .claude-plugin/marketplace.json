@@ -1,0 +1,8 @@
+{
+  "name": "heads-up",
+  "owner": { "name": "DecodedXR" },
+  "description": "Desktop notifications for Claude Code.",
+  "plugins": [
+    { "name": "heads-up", "source": "./", "description": "Notifies you when Claude Code needs permission or finishes. Windows, macOS, Linux, WSL." }
+  ]
+}

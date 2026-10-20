@@ -1,0 +1,21 @@
+{
+  "name": "heads-up",
+  "displayName": "Heads-up",
+  "version": "1.0.0",
+  "description": "Desktop notifications when Claude Code needs your permission or finishes a turn. Native toasts on Windows (no modules), plus macOS, Linux and WSL.",
+  "author": { "name": "DecodedXR" },
+  "homepage": "https://github.com/DecodedXR/heads-up",
+  "repository": "https://github.com/DecodedXR/heads-up",
+  "supportUrl": "https://github.com/DecodedXR/heads-up/issues",
+  "documentationUrl": "https://github.com/DecodedXR/heads-up#readme",
+  "license": "MIT",
+  "keywords": ["notifications", "windows", "toast", "macos", "linux", "wsl", "hooks"],
+  "userConfig": {
+    "notify_on_finish": {
+      "type": "boolean",
+      "title": "Notify when Claude finishes",
+      "description": "Also notify at the end of every turn, not only when Claude needs permission or input.",
+      "default": true
+    }
+  }
+}
