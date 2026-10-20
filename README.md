@@ -26,7 +26,7 @@ That's it. No settings to edit.
 vscode://anthropic.claude-code/install-plugin?plugin=heads-up&marketplace=DecodedXR/heads-up
 ```
 
-Heads-up works in the extension as well as the terminal.
+The extension loads plugin hooks, so Heads-up should work there too. It has been tested in the terminal.
 
 ## What triggers a notification
 
